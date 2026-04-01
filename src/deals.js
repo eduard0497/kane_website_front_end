@@ -5,7 +5,7 @@ const deals = [
     payment: "$279",
     months: "36",
     disclosure:
-      "Terms available on approved credit through Toyota Financial Services (TFS) at participating Toyota dealers. Not all customers qualify.",
+      "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
   },
   {
     vehicle: "2026 Toyota Camry LE",
@@ -13,7 +13,7 @@ const deals = [
     payment: "$289",
     months: "36",
     disclosure:
-      "Terms available on approved credit through Toyota Financial Services (TFS) at participating Toyota dealers. Not all customers qualify.",
+      "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
   },
   {
     vehicle: "2026 Toyota bZ XLE FWD PLUS",
@@ -21,15 +21,15 @@ const deals = [
     payment: "$309",
     months: "36",
     disclosure:
-      "Terms available on approved credit through Toyota Financial Services (TFS) at participating Toyota dealers. Not all customers qualify.",
+      "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
   },
   {
     vehicle: " 2026 Corolla 2WD SE",
-    img: "vehiclePhotos/toyota_corolla_se_2026_blue.jpg",
+    img: "vehiclePhotos/toyota_corolla_se_2026_blue.avif",
     payment: "$259",
     months: "36",
     disclosure:
-      "Terms available on approved credit through Toyota Financial Services (TFS) at participating Toyota dealers. Not all customers qualify.",
+      "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
   },
 ];
 
