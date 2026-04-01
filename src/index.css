@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600;700&family=Cinzel:wght@400;600;700&family=Raleway:wght@400;600;700&family=Cormorant+Garamond:wght@400;600;700&display=swap");
+
+:root {
+  --color_black: #242323;
+  --color_gray: #484848;
+  --color_white: #f5f5f5;
+  --color1: #ef2b2b;
+  --color2: #df4718;
+  --root_padding: 20px 20px 50px 20px;
+  --general_border_radius: 10px;
+  --general_padding: 20px;
+  --general_outline: 2px solid var(--color2);
+  --general_gap: 30px;
+  --deals_gap: 20px;
+  --deal_image_box_width: 300px;
+  --deal_image_box_height: 220px;
+  --deal_image_box_width_1189: 400px;
+  --deal_image_box_height_1189: 300px;
+}
+
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ROOT */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: var(--color_black);
+  color: #e1e1e1;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+/* ROOT APP CONTAINER */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--root_padding);
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+}
+
+/* IMAGES */
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTONS */
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* INPUTS */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* LISTS */
+ul,
+ol {
+  list-style: none;
+}
+
+/* MOBILE TYPOGRAPHY */
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+}
+
+p {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: var(--color_gray);
+  border-radius: var(--general_border_radius);
+  padding: var(--general_padding);
+  border: var(--general_outline);
+}
+
+.navbar h2 {
+  color: var(--color_black);
+  font-family: "Montserrat", serif;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", serif;
+  letter-spacing: 1px;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.logo_kane {
+  color: var(--color2);
+}
+.logo_motors {
+  color: var(--color_black);
+}
+
+.deals_container {
+  background-color: var(--color_gray);
+  display: flex;
+  flex-direction: column;
+  gap: var(--deals_gap);
+  border-radius: var(--general_border_radius);
+  border: var(--general_outline);
+  padding: var(--general_padding);
+}
+
+.deal {
+  display: flex;
+  align-items: center;
+  gap: var(--general_gap);
+}
+
+.deal_image_box {
+  width: var(--deal_image_box_width);
+  height: var(--deal_image_box_height);
+  overflow: hidden;
+  border-radius: var(--general_border_radius);
+}
+
+.deal_image_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.deal_details {
+  color: var(--color_white);
+  font-weight: bold;
+}
+.deal_vehicle {
+  font-size: 25px;
+}
+
+.deal_disclosure {
+  font-size: 10px;
+}
+
+.line {
+  display: block;
+  width: 90%;
+  height: 5px;
+  margin: 10px auto;
+  border-radius: 999px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--color2) 20%,
+    var(--color2) 80%,
+    transparent 100%
+  );
+}
+
+.about_container {
+  background-color: var(--color_gray);
+  border-radius: var(--general_border_radius);
+  border: var(--general_outline);
+  padding: var(--general_padding);
+  display: flex;
+  align-items: center;
+  gap: var(--general_gap);
+}
+
+.about_logo {
+  display: flex;
+  flex-direction: column-reverse;
+  font-family: "Montserrat", serif;
+  letter-spacing: 1px;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.about_logo h3 {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.about_logo_kane {
+  color: var(--color2);
+}
+
+.about_logo_motors {
+  color: var(--color_black);
+}
+
+.about_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 5px;
+}
+
+/* MOBILE BREAKPOINT */
+@media (max-width: 1189px) {
+  .deal_image_box {
+    width: var(--deal_image_box_width_1189);
+    height: var(--deal_image_box_height_1189);
+  }
+}
+
+@media (max-width: 800px) {
+  .deal {
+    flex-direction: column; /* stack items vertically */
+    align-items: flex-start; /* aligns text and image to left/top */
+    gap: 15px; /* smaller gap for mobile */
+  }
+
+  .deal_image_box {
+    width: 100%; /* take full width of container */
+    height: auto; /* maintain aspect ratio */
+  }
+
+  .deal_image_box img {
+    width: 100%;
+    height: auto;
+  }
+}
