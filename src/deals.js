@@ -17,7 +17,7 @@ const deals = [
   },
   {
     vehicle: "2026 Toyota bZ XLE XLE FWD PLUS",
-    img: "vehiclePhotos/toyota_bz_xle_fwd_2026_blue.png",
+    img: "vehiclePhotos/toyota_bz_xle_fwd_2026_blue.avif",
     payment: "$309",
     months: "36",
     disclosure:
