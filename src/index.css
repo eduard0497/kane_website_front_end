@@ -13,7 +13,7 @@
   --general_gap: 30px;
   --deals_gap: 20px;
   --deal_image_box_width: 300px;
-  --deal_image_box_height: 220px;
+  /* --deal_image_box_height: 220px; */
   --deal_image_box_width_1189: 400px;
   --deal_image_box_height_1189: 300px;
 }
@@ -156,7 +156,7 @@ p {
 
 .deal_image_box {
   width: var(--deal_image_box_width);
-  height: var(--deal_image_box_height);
+  /* height: var(--deal_image_box_height); */
   overflow: hidden;
   border-radius: var(--general_border_radius);
 }
@@ -171,7 +171,18 @@ p {
 .deal_details {
   color: var(--color_white);
   font-weight: bold;
+  font-family: "Montserrat", serif;
+  letter-spacing: 1px;
 }
+
+.deal_details_detail {
+  font-family: "Montserrat", serif;
+  letter-spacing: 1px;
+  font-style: italic;
+  color: var(--color2);
+  font-size: 21px;
+}
+
 .deal_vehicle {
   font-size: 25px;
 }
@@ -258,5 +269,11 @@ p {
   .deal_image_box img {
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 404px) {
+  .about_details {
+    font-size: 12px;
   }
 }

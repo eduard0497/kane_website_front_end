@@ -25,7 +25,7 @@ const deals = [
   },
   {
     vehicle: " 2026 Corolla 2WD SE",
-    img: "vehiclePhotos/toyota_corolla_se_2026_blue.avif",
+    img: "vehiclePhotos/toyota_corolla_se_2026_black.png",
     payment: "$259",
     months: "36",
     disclosure:

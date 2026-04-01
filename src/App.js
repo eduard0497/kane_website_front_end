@@ -42,8 +42,16 @@ const Deals = () => {
               </div>
               <div className="deal_details">
                 <p className="deal_vehicle">{deal.vehicle}</p>
-                <p>Monthly Payment: {deal.payment}</p>
-                <p>For: {deal.months} months</p>
+                <p>
+                  Monthly Payment:{" "}
+                  <span className="deal_details_detail">{deal.payment}</span>
+                </p>
+                <p>
+                  For:{" "}
+                  <span className="deal_details_detail">
+                    {deal.months} months
+                  </span>
+                </p>
                 <p className="deal_disclosure">
                   *Disclosure: {deal.disclosure}
                 </p>
