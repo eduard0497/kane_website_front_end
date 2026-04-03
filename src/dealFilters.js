@@ -86,6 +86,63 @@ const dealFilters = {
         "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
   ],
+  Hyundai: [
+    {
+      deal_link:
+        "https://www.hyundaisantamonica.com/best-hyundai-elantra-lease-deals-and-new-specials-in-los-angeles-ca.htm",
+      vehicle: "Hyundai Elantra Elantra SE",
+      trim_package: "",
+      img: "https://api.codifyauto.com/media/files/a6ecbe4e-d47f-412d-9cd5-90f4cd0970e5",
+      down_payment: "$3,999",
+      payment: "$199 + TAX",
+      months: "36",
+      disclosure: "On approved credit through Hyundai Motor Finance.",
+    },
+    {
+      deal_link:
+        "https://www.hyundaisantamonica.com/best-hyundai-tucson-lease-deals-and-new-specials-in-los-angeles-ca.htm",
+      vehicle: "2026 Hyundai Tucson SE",
+      trim_package: "",
+      img: "https://api.codifyauto.com/media/dealerships/33b6fdac-ed0f-4352-b9f4-673ceb7d43fd/files/a969cc70-2e4d-4704-9d9c-a8820be1ce59",
+      down_payment: "$3,999",
+      payment: "$294 + TAX",
+      months: "36",
+      disclosure: "On approved credit through Hyundai Motor Finance.",
+    },
+    {
+      deal_link:
+        "https://www.hyundaisantamonica.com/best-hyundai-ioniq-5-lease-deals-and-new-specials-in-los-angeles-ca.htm",
+      vehicle: "2026 Hyundai IONIQ 5 SE",
+      trim_package: "",
+      img: "https://api.codifyauto.com/media/files/c6e96866-f07d-4aa5-8058-1d5ac9e8fc69",
+      down_payment: "$3,999",
+      payment: "$269 + TAX",
+      months: "24",
+      disclosure: "On approved credit through Hyundai Motor Finance.",
+    },
+    {
+      deal_link:
+        "https://www.hyundaisantamonica.com/best-hyundai-sonata-lease-deals-and-new-specials-in-los-angeles-ca.htm",
+      vehicle: "2026 Hyundai Sonata SE",
+      trim_package: "",
+      img: "https://api.codifyauto.com/media/files/a145448c-47f5-4ecf-8816-24ab753b394c",
+      down_payment: "$3,499",
+      payment: "$279 + TAX",
+      months: "36",
+      disclosure: "On approved credit through Hyundai Motor Finance.",
+    },
+    {
+      deal_link:
+        "https://www.hyundaisantamonica.com/best-hyundai-palisade-lease-deals-and-new-specials-in-los-angeles-ca.htm",
+      vehicle: "2026 Hyundai Palisade Hybrid SEL",
+      trim_package: "",
+      img: "https://api.codifyauto.com/media/files/a25b8d7e-3a7f-451d-8c96-ead03de98ce3",
+      down_payment: "$3,999",
+      payment: "$499 + TAX",
+      months: "36",
+      disclosure: "On approved credit through Hyundai Motor Finance.",
+    },
+  ],
   Honda: [
     {
       deal_link:
