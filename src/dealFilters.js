@@ -112,6 +112,41 @@ const dealFilters = {
         "Program eligibility based on credit approval. Not all customers will qualify. Offer requires financing with Honda Financial Services.",
     },
   ],
+  Audi: [
+    {
+      deal_link:
+        "https://docs.google.com/spreadsheets/d/1RhNM_lPIGGJEgLqAsJBBQW-GZjaaK7swf2vPl_7-dXM/htmlview?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAQ8TFtleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadUZtnRkIv-YWIwVCk_mrMhbDDCdhk9gPHCNkfJxLIjdTBhm1B5u5Jpb_Citw_aem_uzztTKFhXRsFSgR7-UCvsQ",
+      vehicle: "2026 Audi A3",
+      trim_package: "Convenience Black Optics",
+      img: "https://cdcssl.ibsrv.net/autodata/images/?img=USD50AUC152A021001.jpg&width=636&height=450",
+      down_payment: "$3,000",
+      payment: "$363 + TAX",
+      months: "39",
+      disclosure: "Special eligibility based on credit approval.",
+    },
+    {
+      deal_link:
+        "https://docs.google.com/spreadsheets/d/1RhNM_lPIGGJEgLqAsJBBQW-GZjaaK7swf2vPl_7-dXM/htmlview?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAQ8TFtleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadUZtnRkIv-YWIwVCk_mrMhbDDCdhk9gPHCNkfJxLIjdTBhm1B5u5Jpb_Citw_aem_uzztTKFhXRsFSgR7-UCvsQ",
+      vehicle: "2026 Audi A6 e-tron",
+      trim_package: "Premium Plus, Warm Weather",
+      img: "https://mpop-prod-primary.s3.amazonaws.com/audi-chandler-az/img/69b49386a0d00-6e7a3efa-93b7-43a0-ae62-9135f1a53166.jpg",
+      down_payment: "$3,000",
+      payment: "$795 + TAX",
+      months: "36",
+      disclosure: "Special eligibility based on credit approval.",
+    },
+    {
+      deal_link:
+        "https://docs.google.com/spreadsheets/d/1RhNM_lPIGGJEgLqAsJBBQW-GZjaaK7swf2vPl_7-dXM/htmlview?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAQ8TFtleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAadUZtnRkIv-YWIwVCk_mrMhbDDCdhk9gPHCNkfJxLIjdTBhm1B5u5Jpb_Citw_aem_uzztTKFhXRsFSgR7-UCvsQ",
+      vehicle: "2026 Audi A6",
+      trim_package: "",
+      img: "https://www.usnews.com/object/image/0000019c-4ef7-d516-a1dc-4eff34e00000/2026-audi-a6-front-angle-view-left-ak.jpg?update-time=1770851349738&size=responsiveGallery&format=webp",
+      down_payment: "$,3000",
+      payment: "$766 + TAX",
+      months: "36",
+      disclosure: "Special eligibility based on credit approval.",
+    },
+  ],
 };
 
 export default dealFilters;
