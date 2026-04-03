@@ -82,7 +82,13 @@ const Deals = () => {
                   <p>Package/Trim: {deal.trim_package}</p>
                 ) : null}
                 <p>
-                  Monthly Payment:{" "}
+                  Down:
+                  <span className="deal_details_detail">
+                    {deal.down_payment}
+                  </span>
+                </p>
+                <p>
+                  Monthly:{" "}
                   <span className="deal_details_detail">{deal.payment}</span>
                 </p>
                 <p>

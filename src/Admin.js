@@ -39,6 +39,7 @@ function Admin() {
             <th>Down Payment</th>
             <th>Monthly</th>
             <th>Months</th>
+            <th>Dealer</th>
             <th>Deal Link</th>
           </tr>
         </thead>
@@ -56,6 +57,7 @@ function Admin() {
                   <td>{deal.down_payment}</td>
                   <td>{deal.payment}</td>
                   <td>{deal.months}</td>
+                  <th>{deal.dealer}</th>
                   <td>
                     <a href={deal.deal_link} target="_blank" rel="noreferrer">
                       LINK
