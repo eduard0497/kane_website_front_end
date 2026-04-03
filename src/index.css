@@ -16,6 +16,27 @@
   /* --deal_image_box_height: 220px; */
   --deal_image_box_width_1189: 400px;
   --deal_image_box_height_1189: 300px;
+  /* Filter buttons */
+  --filter_wrapper_gap: 10px;
+  --filter_wrapper_padding: 8px;
+  --filter_wrapper_max_width: 100%;
+  --filter_wrapper_border_radius: 20px;
+  --filter_wrapper_background: rgba(255, 255, 255, 0.08);
+  --filter_wrapper_backdrop_filter: blur(14px);
+  --filter_button_min_width: 100px;
+  --filter_button_height: 44px;
+  --filter_button_border_radius: 14px;
+  --filter_button_font_size: 15px;
+  --active_pill_position_top: 8px;
+  --active_pill_position_left: 8px;
+  --active_pill_width: 100px;
+  --active_pill_height: 44px;
+  --active_pill_border_radius: 14px;
+  --active_pill_background: var(--color2);
+  --active_pill_backdrop_filter: blur(20px);
+  --active_pill_border: 1px solid rgba(255, 255, 255, 0.18);
+  --active_pill_box_shadow: 0 4px 18px rgba(255, 255, 255, 0.15);
+  --active_pill_translate_by: 110px;
 }
 
 /* RESET */
@@ -148,6 +169,64 @@ p {
   padding: var(--general_padding);
 }
 
+/* Filter CSS */
+.filter_wrapper {
+  position: relative;
+  display: flex;
+  gap: var(--filter_wrapper_gap);
+  padding: var(--filter_wrapper_padding);
+  width: fit-content;
+  max-width: var(--filter_wrapper_max_width);
+  border-radius: var(--filter_wrapper_border_radius);
+  background: var(--filter_wrapper_background);
+  backdrop-filter: var(--filter_wrapper_backdrop_filter);
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.filter_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.filter_button {
+  position: relative;
+  z-index: 2;
+  min-width: var(--filter_button_min_width);
+  height: var(--filter_button_height);
+  border: none;
+  border-radius: var(--filter_button_border_radius);
+  background: transparent;
+  color: var(--color2);
+  font-weight: bolder;
+  font-size: var(--filter_button_font_size);
+  cursor: pointer;
+}
+
+.filter_button.active {
+  color: var(--color_gray);
+}
+
+.active_pill {
+  will-change: transform;
+  position: absolute;
+  top: var(--active_pill_position_top);
+  left: var(--active_pill_position_left);
+  width: var(--active_pill_width);
+  height: var(--active_pill_height);
+  border-radius: var(--active_pill_border_radius);
+  background: var(--active_pill_background);
+  backdrop-filter: var(--active_pill_backdrop_filter);
+  border: var(--active_pill_border);
+  box-shadow: var(--active_pill_box_shadow);
+  transition: transform 0.35s ease;
+  z-index: 1;
+  transform: translateX(
+    calc(var(--active-index) * var(--active_pill_translate_by))
+  );
+}
+
 .deal {
   display: flex;
   align-items: center;
@@ -244,6 +323,35 @@ p {
   flex-direction: column;
   justify-content: start;
   gap: 5px;
+}
+
+/* For ADMIN */
+table {
+  width: max-content;
+  border-collapse: collapse;
+  table-layout: auto;
+  position: relative;
+}
+
+table,
+th,
+td {
+  border: 1px solid gray;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+td > img {
+  width: 200px;
+  height: 200px;
+}
+
+td > a {
+  text-decoration: underline;
 }
 
 /* MOBILE BREAKPOINT */
