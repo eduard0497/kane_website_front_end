@@ -26,7 +26,7 @@ const dealFilters = {
         "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
-      deal_link: "deals/toyota_hollywood.jpg",
+      deal_link: "dealsByImages/toyota_hollywood.jpg",
       dealer: "Hollywood Toyota",
       vehicle: "2026 Camry LE Hybrid",
       trim_package: "",
@@ -64,7 +64,7 @@ const dealFilters = {
         "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
-      deal_link: "deals/toyota_hollywood.jpg",
+      deal_link: "dealsByImages/toyota_hollywood.jpg",
       dealer: "Hollywood Toyota",
       vehicle: "2026 Toyota Corolla Cross L",
       trim_package: "",
@@ -238,7 +238,7 @@ const dealFilters = {
       vehicle: "2026 Audi A6",
       trim_package: "",
       img: "https://www.usnews.com/object/image/0000019c-4ef7-d516-a1dc-4eff34e00000/2026-audi-a6-front-angle-view-left-ak.jpg?update-time=1770851349738&size=responsiveGallery&format=webp",
-      down_payment: "$,3000",
+      down_payment: "$3,000",
       payment: "$766 + TAX",
       months: "36",
       disclosure: "Special eligibility based on credit approval.",
