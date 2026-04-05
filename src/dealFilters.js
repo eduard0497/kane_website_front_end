@@ -205,6 +205,19 @@ const dealFilters = {
       disclosure: "Special eligibility based on credit approval.",
     },
   ],
+  Volkswagen: [
+    {
+      deal_link: "https://www.volkswagenleases.com/quote?vehicle=2026+Jetta+S&img=%2Fassets%2Fimages%2Fspecials%2F2026-jetta-s-1772604767.webp&price=79&term=24&miles=7500&das=4569&tag=Hot+Deal&details=Lease+a+2026+Volkswagen+Jetta+S+for+%2478+%2B+Tax+per+month+for+24+months.+Based+on+an+MSRP+of+%2425%2C566.00+and+a+selling+price+of+%2422%2C871.00.+Stock+%23%3A+NT4212.+%244569+down+includes+drive-off+fees+due+at+signing.+Includes+first+month%E2%80%99s+payment%2C+%24795+acquisition+fee%2C+%2485+documentation+fee%2C+title%2C+license%2C+registration%2C+taxes%2C+and+any+dealer-installed+accessories+or+options.+Lease+includes+7%2C500+miles+per+year+with+an+excess+mileage+charge+of+%240.25+per+mile.+No+security+deposit+required.+Closed-end+lease+%7C+24+months%2C+7%2C500+mi%2Fyr.+%244%2C569+due+at+signing.+All+offers+subject+to+credit+approval+through+Volkswagen+Credit.+Payments+based+on+MSRP+and+may+vary+by+dealer.+Does+not+include+tax%2C+title%2C+license%2C+options%2C+and+dealer+fees.+Lessee+responsible+for+maintenance%2C+excess+wear+and+mileage+over+10%2C000+miles%2Fyear+at+%240.20%2Fmile.+Offers+valid+for+vehicles+in+dealer+stock+only.+Programs+may+change+without+notice.+Offers+valid+in+the+Greater+Los+Angeles+area.+Expires+end+of+month.",
+      dealer: "Volkswagen - Puente Hills",
+      vehicle: "2026 Jetta S",
+      trim_package: "",
+      img: "https://www.volkswagenleases.com/assets/images/specials/2026-jetta-s-1772604767.webp",
+      down_payment: "$4,569",
+      payment: "$79",
+      months: "24",
+      disclosure: "Special eligibility based on credit approval.",
+    },
+  ],
 };
 
 export default dealFilters;
