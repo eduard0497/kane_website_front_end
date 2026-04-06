@@ -82,7 +82,7 @@ const Deals = () => {
                   <p>Package/Trim: {deal.trim_package}</p>
                 ) : null}
                 <p>
-                  Down:
+                  Down:{" "}
                   <span className="deal_details_detail">
                     {deal.down_payment}
                   </span>
@@ -92,10 +92,8 @@ const Deals = () => {
                   <span className="deal_details_detail">{deal.payment}</span>
                 </p>
                 <p>
-                  For:{" "}
-                  <span className="deal_details_detail">
-                    {deal.months} months
-                  </span>
+                  For <span className="deal_details_detail">{deal.months}</span>{" "}
+                  months
                 </p>
                 <p className="deal_disclosure">
                   *Disclosure: {deal.disclosure}
