@@ -1,5 +1,5 @@
 const dealFilters = {
-  "Toyota": [
+  Toyota: [
     {
       vehicle: "2026 Camry LE Hybrid",
       trim_package: "",
@@ -7,7 +7,8 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$309",
       months: "36",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Tacoma 2WD Double Cab",
@@ -16,7 +17,8 @@ const dealFilters = {
       down_payment: "$3,999",
       payment: "$279",
       months: "36",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Camry LE Hybrid",
@@ -25,7 +27,8 @@ const dealFilters = {
       down_payment: "$3,000",
       payment: "$285",
       months: "39",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Corolla 2WD SE",
@@ -34,7 +37,8 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$259",
       months: "36",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Toyota Corolla Cross L",
@@ -43,7 +47,8 @@ const dealFilters = {
       down_payment: "$3,000",
       payment: "$289",
       months: "39",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Corolla Hybrid LE",
@@ -52,7 +57,8 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$269",
       months: "36",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Prius Plug-in Hybrid SE",
@@ -61,7 +67,8 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$359",
       months: "36",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
     {
       vehicle: "2026 Prius 2WD Sedan LE Hybrid",
@@ -70,48 +77,11 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$309",
       months: "36",
-      disclosure: "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
+      disclosure:
+        "Terms available on approved credit through Toyota Financial Services (TFS). Not all customers qualify.",
     },
   ],
-  "BMW": [
-    {
-      vehicle: "2026 2 Series",
-      trim_package: "",
-      img: "https://d2ivfcfbdvj3sm.cloudfront.net/wJvHczb1uN2OnS2K/57421/color_no_cr/color_0640_032_png/MY2026/57421/57421_cc0640_032_300.webp?c=172&p=243&m=1&o=png&s=wn916v8q6DPhvCSV46v79P",
-      down_payment: "$3,000",
-      payment: "$489",
-      months: "39",
-      disclosure: "Requires BMW Loyalty, 7,500 Miles/Year, 39 month lease. Only aavilable on approved credit through BMW Financial Servies",
-    },
-    {
-      vehicle: "2026 3 Series",
-      trim_package: "",
-      img: "https://gld-creative.s3.us-west-2.amazonaws.com/2026-bmw-3-series-m3-competition-sedan-06b4431b69c3-600x300.png",
-      down_payment: "$3,000",
-      payment: "$489",
-      months: "39",
-      disclosure: "Requires BMW Loyalty, 7,500 Miles/Year, 39 month lease. Only aavilable on approved credit through BMW Financial Servies",
-    },
-    {
-      vehicle: "2026 5 Series",
-      trim_package: "",
-      img: "https://file.kelleybluebookimages.com/kbb/base/evox/CP/57262/2026-BMW-5%20Series-front_57262_032_2400x1800_C64.png",
-      down_payment: "$3,000",
-      payment: "$689",
-      months: "39",
-      disclosure: "Requires BMW Loyalty, 7,500 Miles/Year, 39 month lease. Only aavilable on approved credit through BMW Financial Servies",
-    },
-    {
-      vehicle: "2026 X1 Series",
-      trim_package: "",
-      img: "https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/o10qiMPxXkqV_WRjKAYUpvIDGvSaI8u6D-TrWMLPVNtFbfcGPL0jIFqHhvHnHl2mOdQOcDz6Yn2-3MpKLW3lvVsYDMPm1pJhatlZO_X_fZoYzMyupCskhhfqEG7SsZinj_jgmtdImqmhiiD64QM9BTDkyOZcpk_cxhsHtxf1IGi3M7vGEYbiJvNzau_7Hmtd1UVII68rEgn_61HKZW1eLA/cc_2026BMS251992528_01_640_C68.png",
-      down_payment: "$3,000",
-      payment: "$509",
-      months: "39",
-      disclosure: "Requires BMW Loyalty, 7,500 Miles/Year, 39 month lease. Only aavilable on approved credit through BMW Financial Servies",
-    },
-  ],
-  "Hyundai": [
+  Hyundai: [
     {
       vehicle: "Hyundai Elantra Elantra SE",
       trim_package: "",
@@ -158,7 +128,7 @@ const dealFilters = {
       disclosure: "On approved credit through Hyundai Motor Finance.",
     },
   ],
-  "Honda": [
+  Honda: [
     {
       vehicle: "2026 Honda Civic",
       trim_package: "",
@@ -166,7 +136,8 @@ const dealFilters = {
       down_payment: "$1,657",
       payment: "$353",
       months: "24",
-      disclosure: "Program eligibility based on credit approval. Not all customers will qualify. Offer requires financing with Honda Financial Services.",
+      disclosure:
+        "Program eligibility based on credit approval. Not all customers will qualify. Offer requires financing with Honda Financial Services.",
     },
     {
       vehicle: "2026 Honda Accord",
@@ -175,10 +146,11 @@ const dealFilters = {
       down_payment: "$2,071",
       payment: "$447",
       months: "24",
-      disclosure: "Program eligibility based on credit approval. Not all customers will qualify. Offer requires financing with Honda Financial Services.",
+      disclosure:
+        "Program eligibility based on credit approval. Not all customers will qualify. Offer requires financing with Honda Financial Services.",
     },
   ],
-  "Audi": [
+  Audi: [
     {
       vehicle: "2026 Audi A3",
       trim_package: "Convenience Black Optics",
@@ -207,7 +179,7 @@ const dealFilters = {
       disclosure: "Special eligibility based on credit approval.",
     },
   ],
-  "Volkswagen": [
+  Volkswagen: [
     {
       vehicle: "2026 Jetta S",
       trim_package: "",
@@ -236,7 +208,7 @@ const dealFilters = {
       disclosure: "Special eligibility based on credit approval.",
     },
   ],
-  "Lexus": [
+  Lexus: [
     {
       vehicle: "2026 Lexus UX 300h",
       trim_package: "",
@@ -244,7 +216,8 @@ const dealFilters = {
       down_payment: "$3,999",
       payment: "$369",
       months: "39",
-      disclosure: "Applies to select new 2026 Lexus UX 300h. upon credit approval.",
+      disclosure:
+        "Applies to select new 2026 Lexus UX 300h. upon credit approval.",
     },
     {
       vehicle: "2026 Lexus IS 350",
@@ -253,7 +226,8 @@ const dealFilters = {
       down_payment: "$3,999",
       payment: "$529",
       months: "39",
-      disclosure: "Applies to select new 2026 Lexus UX 300h. upon credit approval.",
+      disclosure:
+        "Applies to select new 2026 Lexus UX 300h. upon credit approval.",
     },
     {
       vehicle: "2026 Lexus TX 350",
@@ -262,10 +236,11 @@ const dealFilters = {
       down_payment: "$4,999",
       payment: "$569",
       months: "39",
-      disclosure: "Applies to select new 2026 Lexus UX 300h. upon credit approval.",
+      disclosure:
+        "Applies to select new 2026 Lexus UX 300h. upon credit approval.",
     },
   ],
-  "Kia": [
+  Kia: [
     {
       vehicle: "2025 Kia EV6 LIGHT",
       trim_package: "",
@@ -273,7 +248,8 @@ const dealFilters = {
       down_payment: "$2,499",
       payment: "$249",
       months: "24",
-      disclosure: "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
+      disclosure:
+        "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
     },
     {
       vehicle: "2025 Kia K4 LXS",
@@ -282,7 +258,8 @@ const dealFilters = {
       down_payment: "$1,999",
       payment: "$169",
       months: "24",
-      disclosure: "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
+      disclosure:
+        "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
     },
     {
       vehicle: "2026 Kia Sorento LX",
@@ -291,7 +268,8 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$219",
       months: "24",
-      disclosure: "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
+      disclosure:
+        "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
     },
     {
       vehicle: "2026 Kia Sportage Hybrid LX",
@@ -300,10 +278,11 @@ const dealFilters = {
       down_payment: "$2,999",
       payment: "$179",
       months: "24",
-      disclosure: "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
+      disclosure:
+        "Additional fees apply on the amount due at signing. Requires credit approval and financing through Kia Financial.",
     },
   ],
-  "Mazda": [
+  Mazda: [
     {
       vehicle: "2026 Mazda Mazda3 2.5 S Select Sport",
       trim_package: "",
@@ -311,7 +290,8 @@ const dealFilters = {
       down_payment: "$1,500",
       payment: "$279 + TAX",
       months: "36",
-      disclosure: "On approved credit, not all customers will qualify. The total amount due at signing includes $85 doc fee and first payment.",
+      disclosure:
+        "On approved credit, not all customers will qualify. The total amount due at signing includes $85 doc fee and first payment.",
     },
     {
       vehicle: "Mazda CX-50 Hybrid",
@@ -320,7 +300,8 @@ const dealFilters = {
       down_payment: "$1,300",
       payment: "$384 + TAX",
       months: "36",
-      disclosure: "On approved credit, not all customers will qualify. The total amount due at signing includes $85 doc fee and first payment.",
+      disclosure:
+        "On approved credit, not all customers will qualify. The total amount due at signing includes $85 doc fee and first payment.",
     },
   ],
 };
