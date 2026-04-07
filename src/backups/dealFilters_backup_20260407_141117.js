@@ -86,7 +86,7 @@ const dealFilters = {
     {
       vehicle: "2026 3 Series",
       trim_package: "",
-      img: "https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/o10qiMPxXkq_NervCG1GUhpoFMp9GTUnOhBRpTVhZ5I1cBa53hBKg96wuk2s5ekxuV7hjZ4hMrJ8BpZmoPA8QNy-eZ8pYyuZL6HzRdVdB52CJIRvFhmMkiB4-nX6YDyYJHqNOG3dy6MlgY3YzObA26lgXI6w6RmQIgNuUZQ9-C5amMJ-IOYCJQ/cc_2026BMC222011554_01_640_300.png",
+      img: "https://gld-creative.s3.us-west-2.amazonaws.com/2026-bmw-3-series-m3-competition-sedan-06b4431b69c3-600x300.png",
       down_payment: "$3,000",
       payment: "$489",
       months: "39",
